@@ -1,8 +1,26 @@
-# React + Vite
+### Assignment 1: Controlled vs. Uncontrolled Components
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Objective:**
+Create a form that uses both controlled and uncontrolled components, illustrating the differences in handling form data in React.
 
-Currently, two official plugins are available:
+**Requirements:**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. **Form Setup:**
+    - Implement a form in a new React component called `UserForm`.
+    - The form should include:
+        - A controlled text input for the user's name.
+        - An uncontrolled text input for the user's email using `ref`.
+2. **Controlled Input:**
+    - For the controlled input, maintain the input's state using the `useState` hook.
+    - Implement an `onChange` handler to update the state as the user types.
+3. **Uncontrolled Input:**
+    - Use the `useRef` hook to create a ref for the uncontrolled input.
+    - Provide a "Submit" button. On clicking the button, log the values of both inputs to the console.
+4. **Validation Display:**
+    - Add simple validation that checks if the name is at least 3 characters long.
+    - Display a message under the name input if the validation fails.
+
+**Focus Points:**
+
+- Demonstrate the difference in handling user input between controlled and uncontrolled components.
+- Show how to use refs with uncontrolled components.
