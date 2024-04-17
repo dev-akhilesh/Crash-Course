@@ -1,0 +1,59 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+.app {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.user-profile,
+.edit-profile {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #f9f9f9; 
+  max-width: 400px; 
+  margin: 0 auto; 
+  /* border: 1px solid red; */
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+form {
+  margin-top: 20px; 
+  /* border: 1px solid red; */
+  padding: 50px;
+
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  /* border: 1px solid blue; */
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+button:hover {
+  background-color: #0056b3; 
+}
+
