@@ -1,0 +1,46 @@
+.contact-list {
+  font-family: Arial, sans-serif;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.add-contact-form {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.input-field {
+  flex: 1;
+  padding: 8px;
+  margin-right: 10px;
+}
+
+.add-contact-btn {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.add-contact-btn:hover {
+  background-color: #0056b3;
+}
+
+.contact-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.contact-table th, .contact-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.contact-table th {
+  background-color: #f2f2f2;
+  text-align: center;
+  font-family: Inter;
+}
