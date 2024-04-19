@@ -1,0 +1,116 @@
+#root {
+  /* max-width: 1280px; */
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+body {
+  /* font-family: Arial, sans-serif; */
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+}
+
+.navbar {
+  color: #fff;
+  padding: 10px 0;
+}
+
+.navbar.light {
+  color: black;
+}
+
+.navbar.dark {
+  background-color: #343a40;
+  color: #fff;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.theme-switcher {
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.theme-switcher.light {
+  color: #000;
+}
+
+.theme-switcher.dark {
+  color: #fff;
+}
+
+.mid-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.mid-section.light {
+  background-color: #fff;
+  color: #000;
+}
+
+.mid-section.dark {
+  background-color: #333;
+  color: #fff;
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card.light {
+  background-color: #fff;
+  color: #000;
+}
+
+.card.dark {
+  background-color: #444;
+  color: #fff;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.player-info {
+  padding-top: 10px;
+}
+.footer {
+  padding: 10px 0;
+  position: sticky;
+  /* bottom: 0; */
+}
+
+.footer.light {
+  color: black;
+}
+
+.footer.dark {
+  background-color: #343a40;
+  color: #fff;
+}
